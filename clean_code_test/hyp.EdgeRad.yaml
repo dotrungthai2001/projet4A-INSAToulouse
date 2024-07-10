@@ -1,0 +1,7 @@
+algo_gen : "EdgeRad" #name of algo to generate gen
+point_discretise_min : 10 #minimum number of controlled points for algo
+point_discretise_max : 40 #maximum number of controlled points for algo
+min_number_stain : 1 #minum number of stains to insert on clothes
+max_number_stain : 4 #maximum number of stains to insert on clothes
+ratio_stain_on_cloth_min : 0.0833 #min ratio stain:cloth 
+ratio_stain_on_cloth_max : 0.2 #max ratio stain:cloth

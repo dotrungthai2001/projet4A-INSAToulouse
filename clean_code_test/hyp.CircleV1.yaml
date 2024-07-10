@@ -1,0 +1,16 @@
+algo_gen : "CircleV1" #name of algo to generate gen
+point_discretise_min : 35 #minimum number of controlled points for algo
+point_discretise_max : 45 #maximum number of controlled points for algo
+periodic_spike : False #if spike are spreaded periodically or not
+min_spike_coef : 1.2 #minimum enlargement coef for spike
+max_spike_coef : 1.6 #maximum enlargement coef for spike
+min_nospike_noise : 0.92 #minimum enlargement coef for non-spike points 
+max_nospike_noise : 1.08 #maximum elargement coef for non-spike points
+min_number_stain : 2 #minum number of stains to insert on clothes
+max_number_stain : 5 #maximum number of stains to insert on clothes
+ratio_stain_on_cloth_min : 0.0833 #min ratio stain:cloth 
+ratio_stain_on_cloth_max : 0.2 #max ratio stain:cloth
+num_spike_coef1 : 4 # num_spike = point_discretise//np.random.randint(hyp.get("num_spike_coef1"),hyp.get("num_spike_coef2")) + np.random.randint(hyp.get("num_spike_coef3"), hyp.get("num_spike_coef4"))
+num_spike_coef2 : 6
+num_spike_coef3 : 3
+num_spike_coef4 : 7

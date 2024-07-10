@@ -1,0 +1,7 @@
+algo_gen : "OpenSimplexNoise" #name of algo to generate gen
+min_number_stain : 2 #minum number of stains to insert on clothes
+max_number_stain : 6 #maximum number of stains to insert on clothes
+ratio_stain_on_cloth_min : 0.02 #min ratio stain:cloth 
+ratio_stain_on_cloth_max : 0.05 #max ratio stain:cloth
+noise_level_min : 20
+noise_level_max : 100
